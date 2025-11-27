@@ -1,0 +1,23 @@
+$primary :#C47A5E;
+$secondary:#F4EDE5;
+$navbar-active-color: $primary;
+$nav-link-hover-color: $primary;
+$headings-color:#513125;
+$display-font-sizes: (
+  1: 1rem,
+  2: 2.25rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 6rem
+) ;
+$spacer: 5rem ;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  210: $spacer *14
+) ;
