@@ -1,8 +1,32 @@
-$primary :#C47A5E;
-$secondary:#F4EDE5;
+$primary: #C47A5E;
+$secondary: #999999;
+$light: #FEFBF6;
+
 $navbar-active-color: $primary;
 $nav-link-hover-color: $primary;
-$headings-color:#513125;
+
+$headings-color: #513125;
+
+// Fonts
+$font-family-sans-serif: 'Poppins', sans-serif;
+$headings-font-family: 'Cormorant', sans-serif;  // You want Cormorant for headings
+$font-heading: 'Cormorant', sans-serif;
+$font-body: 'Poppins', sans-serif;               // corrected spelling
+$font-buttons: 'Playfair Display', serif;
+$font-navbar: 'Poppins', sans-serif;
+
+///line heights 
+$line-height-base: 1.7;   // normal paragraphs
+$line-height-sm: 1.3;     // small text
+$line-height-lg: 2.2;    
+
+$line-height-heading: 0.9;  
+$line-height-body: 1.7;
+$line-height-buttons: 1.2;
+$line-height-navbar: 1.5;
+
+
+// Display sizes
 $display-font-sizes: (
   1: 1rem,
   2: 2.25rem,
@@ -10,8 +34,10 @@ $display-font-sizes: (
   4: 3.5rem,
   5: 3rem,
   6: 6rem
-) ;
-$spacer: 5rem ;
+);
+
+// Spacing
+$spacer: 5rem;
 $spacers: (
   0: 0,
   1: $spacer * .25,
@@ -19,5 +45,5 @@ $spacers: (
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
-  210: $spacer *14
-) ;
+  210: $spacer * 14
+);

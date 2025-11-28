@@ -7,23 +7,22 @@
     <title>Document</title>
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Cormorant:wght@400;600&family=Playfair+Display:wght@400;600&display=swap"
         rel="stylesheet">
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Your CSS (fixed path) -->
+    <!--CSS (fixed path) -->
     <link rel="stylesheet" href="../assests/css/style.css">
 </head>
 
-<body class="bg-secondary">
+<body class="bg-light">
 
     <header>
-        <div class="container bg-secondary">
-            <nav class="navbar navbar-expand-lg ">
+        <div class="container bg-light">
+            <nav class="navbar navbar-expand-lg py-0 ">
                 <div class="container-fluid">
 
                     <!-- Logo -->
@@ -40,7 +39,7 @@
                     <!-- Nav Items -->
                     <div class="collapse navbar-collapse gap-5" id="navbarSupportedContent">
 
-                        <ul class="navbar-nav mb-2 mb-lg-0 ms-3 text-primary">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ms-3 text-primary navbar-font">
 
                             <li class="nav-item"><a class="nav-link active " href="#">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">About</a></li>
@@ -66,8 +65,8 @@
                         <ul class="list-unstyled d-flex align-items-center gap-1   ">
                             <li><img src="../assests/images/icons/facebook.svg" alt="Facebook"></li>
                             <li><img src="../assests/images/icons/twitter.svg" alt="Twitter"></li>
-                            <li><img src="../assests/images/icons/linkdin.svg"  alt="LinkedIn"></li>
-                            <li><img src="../assests/images/icons/search.svg " class="ms-2"  alt="Search"></li>
+                            <li><img src="../assests/images/icons/linkdin.svg" alt="LinkedIn"></li>
+                            <li><img src="../assests/images/icons/search.svg " class="ms-2" alt="Search"></li>
                         </ul>
 
                     </div>
@@ -78,14 +77,17 @@
 
     <main>
         <section>
-            <div class="container d-flex align-items-center justify-content-between hero-section bg-secondary ">
+            <div class="container d-flex align-items-center justify-content-between hero-section bg-light mb-5 ">
                 <div class="right-section">
                     <div class=" border-none">
-                        <h2 class="subheading text-primary fs-1 ">SAVANA YOGA</h2>
-                        <h1 class="main-heading heading display-5 fw-medium">Bend your mind, inspire yourself</h1>
-                        <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                        <h2 class="subheading text-primary ds-1 body-font fw-bold">SAVANA YOGA</h2>
+                        <h1 class="main-heading heading display-6 fw-400 font-heading">Bend your mind, inspire yourself
+                        </h1>
+                        <p class="display-1 text-secondary pe-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Ut
+                            elit tellus,
                             luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                        <div class="footer d-flex align-items-center gap-5">
+                        <div class="footer d-flex align-items-center gap-3">
                             <a href="#" class="btn btn-primary text-white border-0">get started <span><img
                                         src="./assests/images/icons/left-arrow.svg" alt=""></span></a>
                             <a class="icon-link icon-link-hover text-primary"
@@ -105,30 +107,39 @@
                 </div>
             </div>
         </section>
-        <section class="about-savana">
-            <div class="container d-flex justify-content-center flex-column align-items-center py-3 pb-2  px-5">
-                <div>
-                     <p class="text-primary">ABOUT SAVANA</p>
-                </div>
-                <div>
-                    <h1 class="text-primary justify-content-center">Happiness is a decision, not a destination.Realize it with us!</h1>
-                </div>
-                <div>
-                    <p class="text-dark pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus leo,
-                    vestibulum a ipsum sed, suscipit sodales ex. Vestibulum id varius risus. Fusce tempus tellus sed
-                    erat scelerisque venenatis. Donec consequat ultrices quam, vitae dignissim mi sodales non.</p>
-                </div>
-                
-                <div>
-                    <a class="icon-link btn btn-primary text-white no-border" href="#">
-                        Learn More
-                        <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
-                            <path
-                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                        </svg>
-                    </a>
+        <section class="about-savana mt-5 ">
+            <div class="container row position-relative">
+                <div class="position-absolute">
+                    <img src="./assests/images/b.jpg" alt="">
+                    <div class="d-flex justify-content-center col-12">
+                        <p class="text-primary mb-2">ABOUT SAVANA</p>
+                    </div>
+                    <div>
+                        <h1 class=" d-flex col-7 justify-content-center display-3">Happiness is adecision, not a
+                            destination.Realize it with us!</h1>
+                    </div>
+                    <div>
+                        <p class="pb-3 text-secondary ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Praesent
+                            tellus leo,
+                            vestibulum a ipsum sed, suscipit sodales ex. Vestibulum id varius risus. Fusce tempus tellus
+                            sed
+                            erat scelerisque venenatis. Donec consequat ultrices quam, vitae dignissim mi sodales non.
+                        </p>
+                    </div>
+
+                    <div>
+                        <a class="icon-link btn btn-primary text-white no-border" href="#">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                                <path
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
+
         </section>
     </main>
     <footer></footer>
