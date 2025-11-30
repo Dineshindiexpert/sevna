@@ -1,11 +1,17 @@
+// Your color palette
+// Override variables before importing Bootstrap
 $primary: #C47A5E;
 $secondary: #999999;
-$light: #FEFBF6;
-
-$navbar-active-color: $primary;
+$headings-color: hwb(16 15% 68%);
+$nav-link-color: $headings-color;
+$navbar-dark-color: $headings-color;
+$bs-navbar-active-color: $headings-color;
+$navbar-dark-active-color: $headings-color;
 $nav-link-hover-color: $primary;
-
-$headings-color: #513125;
+$navbar-dark-hover-color: $primary;
+$success: hwb(16 15% 68%);
+$danger:#F4EDE5;
+$body-bg:#FEFBF6;
 
 // Fonts
 $font-family-sans-serif: 'Poppins', sans-serif;
