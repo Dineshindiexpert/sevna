@@ -53,3 +53,10 @@ $spacers: (
   5: $spacer * 3,
   210: $spacer * 14
 );
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+)
