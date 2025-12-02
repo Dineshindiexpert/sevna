@@ -6,8 +6,21 @@
 @import './../../node_modules/bootstrap/scss/bootstrap';
 
 
-.aboutsavana  {
-     background-color:#F4EDE5;
+.aboutsavana {
+     background-color: #F4EDE5;
 }
- 
 
+.card-body {
+     right: 13%;
+     left: 10%;
+     margin-bottom: -10%;
+     padding: 25px;
+     top: 68%;
+     height:58%;
+     a{
+          $nav-underline-gap:1.5px;
+          text-decoration: underline;
+          text-underline-offset: $nav-underline-gap;
+     }
+
+}

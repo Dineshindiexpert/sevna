@@ -10,27 +10,27 @@ $navbar-dark-active-color: $headings-color;
 $nav-link-hover-color: $primary;
 $navbar-dark-hover-color: $primary;
 $success: hwb(16 15% 68%);
-$danger:#F4EDE5;
-$body-bg:#FEFBF6;
+$danger: #F4EDE5;
+$body-bg: #FEFBF6;
 
 // Fonts
+// ----------------------
+// Font Variables
+// ----------------------
+
 $font-family-sans-serif: 'Poppins', sans-serif;
-$headings-font-family: 'Cormorant', sans-serif;  // You want Cormorant for headings
-$font-heading: 'Cormorant', sans-serif;
-$font-body: 'Poppins', sans-serif;               // corrected spelling
+$headings-font-family: 'Cormorant', serif;
+$font-heading: 'Cormorant', serif;
+$font-body: 'Poppins', sans-serif;
 $font-buttons: 'Playfair Display', serif;
 $font-navbar: 'Poppins', sans-serif;
 
-///line heights 
-$line-height-base: 1.7;   // normal paragraphs
-$line-height-sm: 1.3;     // small text
-$line-height-lg: 2.2;    
-
-$line-height-heading: 0.9;  
+// Line Heights
+$line-height-base: 1.7;
+$line-height-heading: 0.9;
 $line-height-body: 1.7;
 $line-height-buttons: 1.2;
 $line-height-navbar: 1.5;
-
 
 // Display sizes
 $display-font-sizes: (
@@ -58,5 +58,4 @@ $container-max-widths: (
   md: 720px,
   lg: 960px,
   xl: 1140px,
-  xxl: 1320px
-)
+  xxl: 1320px) // fonts sizes 
