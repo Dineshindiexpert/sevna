@@ -76,34 +76,41 @@
     </header>
 
     <main>
-        <section>
-            <div
-                class="container  container-md container-sm container-fluid d-flex align-items-center justify-content-between hero-section  mb-5 ">
-                <div class="right-section">
-                    <div class=" border-none">
-                        <h2 class="subheading text-primary ds-1 body-font fw-bold">SAVANA YOGA</h2>
-                        <h1 class="main-heading heading display-6 fw-400 font-heading">Bend your mind, inspire yourself
-                        </h1>
-                        <p class="display-1 text-secondary pe-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Ut
-                            elit tellus,
-                            luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                        <div class="footer d-flex align-items-center gap-3">
-                            <a href="#" class="btn btn-primary text-white rounded-0">get started <span><img
-                                        src="./assests/images/icons/left-arrow.svg" alt=""></span></a>
-                            <a class="icon-link icon-link-hover text-primary"
-                                style="--bs-link-hover-color-rgb: 255,255,255;" href="#"><span>Contact Us <img
-                                        src="./assests/images/phone-call.png" alt="phone icon" width="16" height="16"
-                                        class="ms-1"></span></a>
+        <section class="mb-5">
+            <div class="container">
+                <div class="row align-items-center">
 
+                    <!-- Left Text -->
+                    <div class="col-12 col-md-6 mb-4 mb-md-0">
+                        <h2 class="text-primary fw-bold">SAVANA YOGA</h2>
+                        <h1 class="display-6 fw-bold">Bend your mind, inspire yourself</h1>
+                        <p class="text-secondary">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                            luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                        </p>
+
+                        <div class="d-flex gap-3">
+                            <a href="#" class="btn btn-primary text-white rounded-0">
+                                Get Started
+                                <img src="./assests/images/icons/left-arrow.svg">
+                            </a>
+
+                            <a href="#" class="text-primary fw-semibold">
+                                Contact Us
+                                <img src="./assests/images/phone-call.png" width="16">
+                            </a>
                         </div>
                     </div>
-                </div>
-                <div class="leftsection">
-                    <img src="./assests/images/yoga-girl.png" alt="Hero Image" class="img-fluid">
+
+                    <!-- Right Image -->
+                    <div class="col-12 col-md-6 text-center">
+                        <img src="./assests/images/yoga-girl.png" class="img-fluid" alt="">
+                    </div>
+
                 </div>
             </div>
         </section>
+
         <section class="about-savana  position-relative d-flex justify-content-center py-3bg-light h-auto ">
 
             <!-- Background image -->
@@ -375,15 +382,48 @@
                 </div>
             </div>
         </section>
+        <section class="py-5 position-relative bg-savana ">
+            <div class="container">
+                <div class="bg-primary position-relative  text-center">
+
+                    <!-- Left Decorative Image -->
+                    <img src="./assests/images/member-right.png"
+                        class="position-absolute start-0 top-0 img-fluid "
+                        alt="">
+
+                    <!-- Right Decorative Image -->
+                    <img src="./assests/images/member-left.png"
+                        class="position-absolute end-0 bottom-0 img-fluid "
+                        alt="">
+
+                    <!-- Content -->
+                    <p class=" mb-1 pt-2 text-white">Membership</p>
+
+                    <h2 class="display-3  pt-1 text-white">
+                        Become Savana Member
+                    </h2>
+
+                    <p class="text-white px-5" >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Praesent tellus leo, vestibulum a ipsum sed, suscipit sodales ex.
+                        Vestibulum id varius risus. Fusce tempus tellus sed.
+                    </p>
+
+                    <a href="#" class="btn btn-light  text-primary border-none rounded-0 mb-2">Join now <span><img src="./assests/images/icons/left-arrow-primary.svg" alt=""></span></a>
+
+                </div>
+            </div>
+        </section>
+
         <section>
             <div class="container">
-                <p>TESTIMONIALS</p>
-                <p>Sweet review from our clients</p>
+                <p class="text-center text-primary">TESTIMONIALS</p>
+                <p class="text-center text-success">Sweet review from our clients</p>
                 <div class="d-flex justify-cotent-space-between gap-2">
                     <div class="cards py-2 px-2 mb-3 bg-primary">
                         <!-- card-1  -->
                         <div class="card-header  d-flex justify-content-space-between">
-                            <div class="d-flex justify-content-space-between">
+                            <div class="d-flex justify-content-space-between gap-2">
                                 <img src="./assests/images/profile-card.png" class="img-fluid" alt="">
                                 <p class="text-white">Jane Froster</p>
                                 <!-- <p>Client</p> -->
@@ -400,9 +440,9 @@
                         </div>
 
                     </div>
-                    <div class="cards py-2 px-2 mb-3 bg-success">
+                    <div class="cards py-2 px-1 mb-3 bg-success">
                         <!-- card-2 -->
-                        <div class="card-header   d-flex justify-content-space-between">
+                        <div class="card-header   d-flex justify-content-start gap-2">
                             <div class="d-flex justify-content-space-between">
                                 <img src="./assests/images/profile-card.png" class="img-fluid" alt="">
                                 <p class="text-white">Jane Froster</p>
@@ -410,7 +450,7 @@
                             </div>
                             <div class="d-flex justify-content-space-between">
                                 <img src="./assests/images/star-card-2.svg" class="img-fluid" alt="">
-                                <p>5.0</p>
+                                <p class="text-white">5.0</p>
                             </div>
                         </div>
                         <div class="card-body text-white">
@@ -422,7 +462,7 @@
                     </div>
                     <div class="cards py-2 px-2 mb-3 bg-danger">
                         <!-- card-3  -->
-                        <div class="card-header d-flex justify-content-space-between">
+                        <div class="card-header d-flex justify-content-space-between gap-2">
                             <div class="d-flex justify-content-space-between">
                                 <img src="./assests/images/profile-card.png" class="img-fluid" alt="">
                                 <p class="text-success">Jane Froster</p>
@@ -448,7 +488,8 @@
             <div class="container ">
                 <p class="text-center text-primary">OUR BLOG</p>
                 <h2 class="text-center">Some tips & tricks about yoga</h2>
-                <p class="px-5 col-12 text-secondary text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus leo, vestibulum a ipsum sed,
+                <p class="px-5 col-12 text-secondary text-center">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Praesent tellus leo, vestibulum a ipsum sed,
                     suscipit sodales ex. </p>
                 <div class="row">
                     <div class="col-6">
@@ -483,11 +524,11 @@
                                 <div>
                                     <img src="./assests/images/card-2-right.png" alt="">
                                 </div>
-                                 <div class="p-1">
+                                <div class="p-1">
                                     <p>I went to a puppy yoga class and this is what it was</p>
                                     <p class="text-primary">14 January 2022 | Yoga, Meditation</p>
                                 </div>
-                                
+
                             </div>
                             <div class="row-4 d-flex mb-2">
                                 <div>
@@ -497,11 +538,11 @@
                                     <p>8 best kids yoga mats to encourage your little yoga</p>
                                     <p class="text-primary">14 January 2022 | Yoga, Meditation</p>
                                 </div>
-                                
+
                             </div>
                             <div class="row-4 d-flex mb-2">
                                 <div>
-                                    <img src="./assests/images/card-5-right.png" alt=""> 
+                                    <img src="./assests/images/card-5-right.png" alt="">
                                 </div>
                                 <div class="p-1 px-3">
                                     <p>Things you only know if you’re brand new to yoga</p>

@@ -3,7 +3,7 @@
 $primary: #C47A5E;
 $secondary: #999999;
 $headings-color: hwb(16 15% 68%);
-$nav-link-color: $headings-color;
+
 $navbar-dark-color: $headings-color;
 $bs-navbar-active-color: $headings-color;
 $navbar-dark-active-color: $headings-color;
@@ -12,8 +12,9 @@ $navbar-dark-hover-color: $primary;
 $success: hwb(16 15% 68%);
 $danger: #F4EDE5;
 $body-bg: #FEFBF6;
-
-
+$nav-link-color: $success;
+$nav-tabs-link-active-color:$primary;
+$nav-tabs-link-hover-color: $primary;
 // Fonts
 // ----------------------
 // Font Variables
@@ -60,7 +61,22 @@ $container-max-widths: (
   md: 720px,
   lg: 960px,
   xl: 1140px,
-  xxl: 1320px) // fonts sizes 
+  xxl: 1320px); // fonts sizes 
 
 
- 
+// ---------- nav-links ----------
+
+// Normal link color
+$nav-link-color: $success; 
+
+// Hover color
+$nav-link-hover-color: $primary;
+
+// Active color
+$nav-link-active-color: $primary;
+
+
+// ---------- navbar-light (for light background navbar) ----------
+$navbar-light-color: $success;            // normal link
+$navbar-light-hover-color: $primary;      // hover
+$navbar-light-active-color: $primary;     // active
