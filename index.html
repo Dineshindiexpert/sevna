@@ -82,8 +82,8 @@
 
                     <!-- Left Text -->
                     <div class="col-12 col-md-6 mb-4 mb-md-0">
-                        <h2 class="text-primary fw-bold">SAVANA YOGA</h2>
-                       <p class="line"></p>
+                        <h2 class="text-primary fw-bold">SAVANA YOGA <span></h2>
+
                         <h1 class="display-6 fw-bold">Bend your mind, inspire yourself</h1>
                         <p class="text-secondary">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
@@ -112,7 +112,8 @@
             </div>
         </section>
 
-        <section class="about-savana  position-relative d-flex justify-content-center py-3bg-light h-auto bg-danger mb-3">
+        <section
+            class="about-savana  position-relative d-flex justify-content-center py-3bg-light h-auto bg-danger mb-3">
 
             <!-- Background image -->
             <div class="aboutsavana position-absolute top-0 start-0 " style="max-width: 100%;">
@@ -124,47 +125,47 @@
                 <img src="./assests/images/round-circle.png" class="img-fluid" alt="">
                 <img src="./assests/images/right-line.png" class="img-fluid position-absolute end-0 bottom-0" alt="">
             </div>
-            <div class="container position-relative text-center pb-5 pt-4 " >
+            <div class="container position-relative text-center pb-5 pt-4 ">
 
                 <!-- Small Title -->
                 <div class=" row justify-content-center ">
                     <div class=" col-auto">
-                <h6 class="text-uppercase fw-semibold  heading  ">
-                    About Savana
-                </h6>
-            </div>
-            <!-- Main Heading -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10 col-md-10">
-                    <h2 class="fw-semibold text-heading display-4 fw-400">
-                        Happiness is a decision, not a destination.Realize it with us!
-                    </h2>
-                </div>
-            </div>
+                        <h6 class="text-uppercase fw-semibold  heading  ">
+                            About Savana
+                        </h6>
+                    </div>
+                    <!-- Main Heading -->
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 col-md-10">
+                            <h2 class="fw-semibold text-heading display-4 fw-400">
+                                Happiness is a decision, not a destination.Realize it with us!
+                            </h2>
+                        </div>
+                    </div>
 
-            <!-- Paragraph -->
-            <div class="row justify-content-center mb-2">
-                <div class="col-lg-8 col-md-10">
-                    <p class="text-muted">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus leo,
-                        vestibulum a ipsum sed, suscipit sodales ex. Vestibulum id varius risus. Fusce tempus
-                        tellus
-                        sed
-                        erat scelerisque venenatis. Donec consequat ultrices quam, vitae dignissim mi sodales
-                        non.
-                    </p>
-                </div>
-            </div>
+                    <!-- Paragraph -->
+                    <div class="row justify-content-center mb-2">
+                        <div class="col-lg-8 col-md-10">
+                            <p class="text-muted">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus leo,
+                                vestibulum a ipsum sed, suscipit sodales ex. Vestibulum id varius risus. Fusce tempus
+                                tellus
+                                sed
+                                erat scelerisque venenatis. Donec consequat ultrices quam, vitae dignissim mi sodales
+                                non.
+                            </p>
+                        </div>
+                    </div>
 
 
-            <div class="row justify-content-center ">
-                <div class="col-auto">
-                    <a href="#" class="btn btn-primary text-white d-flex align-items-center gap-1 rounded-0 ">
-                        Learn More <span><img src="./assests/images/icons/left-arrow.svg" alt=""></span>
-                    </a>
+                    <div class="row justify-content-center ">
+                        <div class="col-auto">
+                            <a href="#" class="btn btn-primary text-white d-flex align-items-center gap-1 rounded-0 ">
+                                Learn More <span><img src="./assests/images/icons/left-arrow.svg" alt=""></span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            </div>
 
 
 
@@ -172,12 +173,36 @@
         </section>
         <section class="position-relative">
             <div class="container d-flex gap-3">
-                <div class="left-section position-relative row">
+                <div class="left-section position-relative row modal-body" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
                     <img src="./assests/images/yoga.png" class=" img-fluid" alt="">
+                    <img src="/assests/images/icons/play button.svg" class="position-absolute top-50 right-50 img-fluid"
+                        style="height: 15%;" alt="">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">yoga every day</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body w-100">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bJJWArRfKa0?si=sIS4q_4pKVl78t4p" title="YouTube video player" frameborder="0" allow="accelerometer;   encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
 
                     <!-- Floating Card -->
-                    <div class="card position-absolute mt-5 start-2 translate-card">
-                        <div class="card-body p-1 bg-success text-white">
+                    <div class="card position-absolute mt-5 ms-3 border-0  why-wechooseus-card">
+                        <div class="card-body p-1 mb-2 bg-success text-white">
                             <h5 class="card-title mb-1">Comfortable place</h5>
                             <p class="card-text mb-2">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -194,7 +219,7 @@
                 <div class="right-section">
                     <h2 class="why choose us subheading fw-600 mb-1">why choose us</h2>
                     <h2 class="heading fw-400 mb-1">All about yoga, all the time</h2>
-                    <div class="card row mb-3 card-1 ">
+                    <div class="card row mb-3 card-1 gap-2">
                         <div class=" p-0 ps-2 pe-3 w-70 card-body py-2 bg-primary">
                             <h5 class="card-title text-white mb-1 col-12">comfortable place</h5>
                             <p class="card-text text-white mb-2 col-12 ">Lorem ipsum dolor sit amet, consectetur
@@ -206,7 +231,7 @@
                         </div>
                     </div>
 
-                    <div class="card row card-2">
+                    <div class="card row card-2 mt-3">
                         <img src="./assests/images/lines.png" class="position-absolute bottom-0 end-0 col-5" alt="">
                         <div class=" p-0 ps-2 pe-3 w-70 card-body py-2 bg-danger">
                             <h5 class="card-title text-success mb-1 col-12">Affordable Pricer</h5>
@@ -388,13 +413,11 @@
                 <div class="bg-primary position-relative  text-center">
 
                     <!-- Left Decorative Image -->
-                    <img src="./assests/images/member-right.png"
-                        class="position-absolute start-0 top-0 img-fluid "
+                    <img src="./assests/images/member-right.png" class="position-absolute start-0 top-0 img-fluid "
                         alt="">
 
                     <!-- Right Decorative Image -->
-                    <img src="./assests/images/member-left.png"
-                        class="position-absolute end-0 bottom-0 img-fluid "
+                    <img src="./assests/images/member-left.png" class="position-absolute end-0 bottom-0 img-fluid "
                         alt="">
 
                     <!-- Content -->
@@ -404,13 +427,14 @@
                         Become Savana Member
                     </h2>
 
-                    <p class="text-white px-5 content" >
+                    <p class="text-white px-5 content">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Praesent tellus leo, vestibulum a ipsum sed, suscipit sodales ex.
                         Vestibulum id varius risus. Fusce tempus tellus sed.
                     </p>
 
-                    <a href="#" class="btn btn-light  text-primary border-none rounded-0 mb-2">Join now <span><img src="./assests/images/icons/left-arrow-primary.svg" alt=""></span></a>
+                    <a href="#" class="btn btn-light  text-primary border-none rounded-0 mb-2">Join now <span><img
+                                src="./assests/images/icons/left-arrow-primary.svg" alt=""></span></a>
 
                 </div>
             </div>
@@ -493,7 +517,7 @@
                     elit. Praesent tellus leo, vestibulum a ipsum sed,
                     suscipit sodales ex. </p>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-7">
                         <div class="card rounded-0 border-0 bg-danger">
                             <img src="./assests/images/image-placeholder.png" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -503,13 +527,13 @@
                                     Praesent tellus leo, vestibulum a ipsum sed, suscipit sodales ex.</p>
                             </div>
 
-                            <div class="card-body">
+                            <div class="card-footer border-0">
                                 <a href="#" class="card-link text-dark">Read more</a>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 mb-1">
+                    <div class="col-5 mb-1">
                         <div class="col gap-1">
                             <div class="row-4 d-flex mb-2">
                                 <div>
@@ -624,7 +648,7 @@
 
                 </div>
                 <hr class="light" style="color:#ffffff; margin-top: 2rem; margin-bottom: 1.5rem;">
-                
+
                 <!-- Footer bottom -->
                 <div class="d-flex justify-content-between align-items-center mt-0">
                     <p class="text-white ">Copyright © 2021 ASK Project</p>
