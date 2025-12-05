@@ -29,3 +29,10 @@
   background-image: url('./../images/background-placeholder.png');
   background-repeat: no-repeat;
 }
+.line {
+     
+     width: 60px;
+     height: 4px;
+     background-color: $primary;
+     margin-bottom: 1rem;
+}
