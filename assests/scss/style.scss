@@ -4,6 +4,11 @@
 @import './../../node_modules/bootstrap/scss/variables';
 
 @import './../../node_modules/bootstrap/scss/bootstrap';
+$headings-font-family: ('Cormorant', serif);
+$font-family-sans-serif: ('Poppins', sans-serif);
+.fm-com {
+  font-family: $font-heading !important;
+}
 
 
 .aboutsavana {
@@ -33,5 +38,18 @@
   .card-2 {
     left: 8%;
   }
+}
+.move-card{
+  margin-top: -27%;
+  margin-left:-20%;
+}
+.underline-after::after {
+    content: "";               
+    display: inline-block;     
+    width: 12%;                
+    height: 3px;              
+    background-color: #c47a5f; 
+    margin-left: 10px;      
+    vertical-align: middle;   
 }
 

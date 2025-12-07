@@ -1,6 +1,6 @@
 // Your color palette
 // Override variables before importing Bootstrap
-$primary: #C47A5E;
+$primary: #c47a5f;
 $secondary: #999999;
 $headings-color: hwb(16 15% 68%);
 
@@ -20,12 +20,13 @@ $nav-tabs-link-hover-color: $primary;
 // Font Variables
 // ----------------------
 
-$font-family-sans-serif: 'Poppins', sans-serif;
-$headings-font-family: 'Cormorant', serif;
-$font-heading: 'Cormorant', serif;
-$font-body: 'Poppins', sans-serif;
-$font-buttons: 'Playfair Display', serif;
-$font-navbar: 'Poppins', sans-serif;
+$font-family-sans-serif: ('Poppins', sans-serif);
+$headings-font-family: ('Cormorant', serif);
+$font-heading: ('Cormorant', serif);
+$font-body: ('Poppins', sans-serif);
+$font-buttons: ('Playfair Display', serif);
+$font-navbar: ('Poppins', sans-serif);
+
 
 // Line Heights
 $line-height-base: 1.7;
